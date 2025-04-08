@@ -212,6 +212,7 @@ nav .icons a{
     color: white;
     display: block;
     transition: 0.2s;
+    font-family: "Zain", sans-serif;
   }
   .sidebar a:hover {
     background: #333;
@@ -472,4 +473,47 @@ nav .icons a{
       justify-content: center;
   }
 }
+.designer-cta {
+  margin: 30px 0;
+  padding: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: center;
+}
 
+.designer-cta h4 {
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  font-weight: 400;
+}
+
+.cta-subtitle {
+  color: #aaa;
+  font-style: italic;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+.designer-button {
+  display: inline-block;
+  padding: 12px 30px;
+  background: transparent;
+  color: #e0e0e0;
+  border: 1px solid #d4af37; 
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-size: 11px;
+  text-decoration: none;
+  transition: all 0.4s ease;
+}
+
+.designer-button:hover {
+  background: rgba(212, 175, 55, 0.1);
+  letter-spacing: 2px;
+}
+
+.designer-button i {
+  margin-right: 8px;
+}

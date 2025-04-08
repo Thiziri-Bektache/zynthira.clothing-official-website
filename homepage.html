@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+    </style>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
+    </style>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="homepage.css">
+    <title>ZYNTHIRA| Luxury Boutique</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="photos/favicon.ico.png">
+
+</head>
+<body>
+    <div class="backg">
+        <img class="bgd" src="photos/man.jpg" alt="men section">
+        <img class="bgd" src="photos/woman.jpg" alt="women section">
+    </div>
+    <div class="sidebar" id="sidebar">
+        <span class="close-btn" onclick="closeSidebar()">&times;</span>
+        <a href="#">Home</a>
+        <a href="#">Shop</a>
+        <a href="#">Cart</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <div class="titles">
+        <h2>men's section</h2>
+        <h2>women's section</h2>
+    </div>
+
+    <div class="buttons">
+        <a href="men.html"><button class="menwomen">discover now</button></a>
+        <a href="women.html"><button class="menwomen">discover now</button></a>
+    </div>
+
+    <div class="overlay" id="overlay" onclick="closeSidebar()"></div>
+    <nav>
+        <img class="logo" src="photos/favicon.ico.png" alt="logo">
+        <h1>zynthira</h1>
+        <div class="icons">
+           <img class="icon" class="icon1" src="photos/magnifying-glass.png" alt="search">
+           <a href=""><img class="icon" class="icon2" src="photos/love.png" alt="wishlist"></a>
+           <a href=""><img class="icon" class="icon3" src="photos/shopping-bag.png" alt="cart"></a>
+           <img class="icon" class="icon4" src="photos/menu.jpg" alt="menu" onclick="openSidebar()">
+        </div>
+    </nav>
+
+        
+    <footer class="luxury-footer">
+        <div class="footer-container">
+         
+            <div class="footer-brand">
+                <h2 class="brand-name">Zynthira</h2>
+                <p class="brand-tagline">Crafting Timeless Luxury</p>
+                <div class="newsletter">
+                    <p>Subscribe to our exclusive collections</p>
+                   <div class="auth-buttons">
+        <a href="signup.html" class="auth-button signin-button">Sign Up</a>
+        <a href="login.html" class="auth-button signup-button">log In</a>
+    </div>
+                </div>
+            </div>
+    
+         
+            <div class="footer-links">
+                <div class="links-column">
+                    <h4>SHOP</h4>
+                    <ul>
+                        <li><a href="#">New Arrivals</a></li>
+                        <li><a href="#">Bestsellers</a></li>
+                        <li><a href="#">Limited Editions</a></li>
+                        <li><a href="#">Gift Cards</a></li>
+                    </ul>
+                </div>
+    
+                <div class="links-column">
+                    <h4>ABOUT</h4>
+                    <ul>
+                        <li><a href="#">Our Heritage</a></li>
+                        <li><a href="#">Sustainability</a></li>
+                        <li><a href="#">Ateliers</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+    
+                <div class="links-column">
+                    <h4>CLIENT SERVICES</h4>
+                    <ul>
+                        <li><a href="#">Personal Styling</a></li>
+                        <li><a href="#">Book an Appointment</a></li>
+                        <li><a href="#">Delivery & Returns</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+    
+                <div class="links-column">
+                    <h4>CONTACT</h4>
+                    <ul>
+                        <li><a href="mailto:zynthira@gmail.com">zynthira@gmail.com</a></li>
+                        <li><a href="tel:+1234567890"> +(213) 567-890</a></li>
+                        <li><a href="#">Algiers</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    
+       
+        <div class="footer-bottom">
+            <div class="legal-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Purchase</a>
+                <a href="#">Cookie Settings</a>
+            </div>
+            <div class="social-links">
+                <a href="photos/instagram.webp" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="photos/facebook.webp" aria-label="facebook"><i class="fab fa-facebook"></i></a>
+                <a href="photos/x.webp" aria-label="X"><i class="fab fa-twitter"></i></a>
+            </div>
+            <p class="copyright">© 2025 Zynthira. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+
+
+    
+</body>
+</html>
